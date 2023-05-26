@@ -1,0 +1,284 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+Naranja Claro #F7CEAB
+Naranja #ED740A
+Azul #0E193F
+*/
+.separator {
+	font-size: 7px;
+	background-color: #F7CEAB;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+}
+
+.logo {
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 6rem;
+
+}
+
+.user__control__wrapper {
+	display: flex;
+}
+
+.icono__user {
+	font-size: 3rem;
+	margin-right: 1rem;
+}
+
+.user__control {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*----------------NAVBAR--------------------*/
+
+.nav__wrapper,
+.nav__list {
+	display: flex;
+}
+
+.nav__wrapper {
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: #ED740A;
+}
+
+.nav__link {
+	font-size: 1.3rem;
+	margin-left: 0.8rem;
+}
+
+.link {
+	text-decoration: none;
+	color: #0E193F;
+}
+
+.link:hover {
+	color: #f7f7f7;
+}
+
+/*------------CONTENTWRAPPER----------------*/
+
+.content__wrapper {
+	display: flex;
+	justify-content: space-around;
+	background: #0E193F;
+	text-align: center;
+	padding: 4rem;
+}
+
+.contet__left {
+	display: flex;
+	width: 60%;
+	border: 1px solid #ED740A;
+	margin-right: 6rem;
+	align-items: center;
+}
+.content__text{
+	color: #f7f7f7;
+	padding: 2rem;
+	
+}
+
+.img__css {
+	width: 250px;
+	height: 260px;
+	
+}
+
+.content__right {
+	width: 40%;
+	border: 1px solid #f7f7f7;
+	margin-left: 6rem;
+}
+
+.img__t-shirt {
+	width: 70%;
+	
+}
+
+/*---------------LASTESTEWRAPPER---------------*/
+.latest__wrapper{
+	width: 80%;
+	background-color: #ED740A;
+	display: flex;
+	flex-direction: column;
+	margin: 5rem auto;
+}
+.latest__subtitle{
+	background-color: #0E193F;
+	text-align: center;
+	color: #f7f7f7;
+	margin: 3rem 20rem;
+	padding: 1rem;
+}
+.latest__subtitle__text{
+	font-size: 3rem;
+}
+.latest__items{
+	display: flex;
+	background-color: #0E193F;
+	margin: 3rem 7rem;
+	
+}
+.latest__text{
+	color: #f7f7f7;
+	margin-bottom: 1rem;
+}
+.latest__group{
+ text-align: center;
+}
+
+/*----------FOOTERWRAPPER---------------*/
+.footer__wrapper{
+	display: flex;
+	justify-content: space-around;
+	background-color: #0E193F;
+	padding: 2rem 0;
+}
+.footer__logo{
+	align-self: center;
+}
+.footer__user{
+	align-self: center;
+}
+.text__white{
+	color: #f7f7f7;
+}
+.orange{
+	color: #ED740A;
+}
